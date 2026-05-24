@@ -37,21 +37,24 @@ Create or update README.md files in concise English.
 
 ## Quick Workflow
 
-1. `MUST`: identify target README files and classify each as repository root
+Use the following as the default operating procedure. Follow these steps in
+order unless the user explicitly requests a different flow.
+
+1. Identify target README files and classify each as repository root
   or project.
-2. `MUST`: route to the correct rules (policy, scope-specific,
+2. Route to the correct rules (policy, scope-specific,
   language-specific).
-3. `MUST`: create and update a task list before editing when the work is
+3. Create and update a task list before editing when the work is
   multi-step.
-4. `MUST`: review existing README content, or create from the matching
+4. Review existing README content, or create from the matching
   template.
-5. `MUST`: confirm the scope in one short line before editing (target,
+5. Confirm the scope in one short line before editing (target,
   purpose, badge change yes/no).
-6. `MUST`: show a patch preview summary and get user approval before applying
+6. Show a patch preview summary and get user approval before applying
   edits.
-7. `MUST`: update missing or inconsistent content while preserving accurate
+7. Update missing or inconsistent content while preserving accurate
   sections.
-8. `MUST`: run final checks in the matching scope guideline.
+8. Run final checks in the matching scope guideline.
 
 ## Decision Gates
 
@@ -80,12 +83,12 @@ Create or update README.md files in concise English.
 
 Use these guardrails by default for repository root and project README updates.
 
-- `MUST`: run a pre-edit scope check with `target`, `goal`, and
+- `SHOULD`: run a pre-edit scope check with `target`, `goal`, and
   `badges changed: yes/no`.
-- `MUST`: provide a pre-apply diff review that summarizes section-level
+- `SHOULD`: provide a pre-apply diff review that summarizes section-level
   changes before applying a patch.
 - `MUST`: keep root badges unchanged unless explicit user approval is provided.
-- `MUST`: include an evidence log listing source files used to justify edits.
+- `SHOULD`: include an evidence log listing source files used to justify edits.
 - `SHOULD`: use a non-destructive proposal path for larger updates (patch-first,
   branch, or PR) instead of silent direct rewrites.
 

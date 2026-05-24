@@ -1,6 +1,6 @@
 ---
 name: readme-maintenance
-description: 'Create or update repository root and project-level README.md files. Use when documenting repositories, refreshing setup steps, standardizing README structure, or drafting concise English README content across ecosystems.'
+description: 'Create or update repository root and project-level README.md files. Use for root/project README refresh, setup/usage doc updates, and structure standardization. Trigger phrases: READMEを最新化,READMEを更新, update project README, refresh project README.'
 argument-hint: 'What README files should be created or updated?'
 license: MIT
 user-invocable: true

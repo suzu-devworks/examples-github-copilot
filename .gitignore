@@ -16,3 +16,4 @@ logs
 !.vscode/extensions.json
 !.vscode/*.code-snippets
 !.vscode/cspell.json
+!.vscode/mcp.json

@@ -5,6 +5,9 @@
     },
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
+  "files.associations": {
+    "LICENSE": "plaintext"
+  },
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "markdownlint.configFile": ".markdownlint.json",

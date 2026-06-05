@@ -3,6 +3,9 @@
 {
   "name": "Ubuntu",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "runArgs": [
+    "--name=examples-github-copilot_devcontainer"
+  ],
   "remoteUser": "vscode",
   "customizations": {
     "vscode": {

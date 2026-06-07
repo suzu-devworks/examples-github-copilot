@@ -5,9 +5,12 @@ These are the rules you must follow when working in this repository.
 ## Language and Communication
 
 - Think and reason in English.
-- Write code, comments, and documentation in concise English.
 - Respond in Japanese for all user-facing chat output, including reviews, summaries, and progress updates.
+- Write code, comments, and documentation in concise English.
 - Do not change locale segments in reference URLs (for example `ja-jp`) unless explicitly requested.
+- Greetings, thanks, and introductory remarks (such as "Understood," or "The following is the code") are strictly prohibited.
+- Output the code with the minimum necessary logic.
+- Avoid lengthy explanations; when explanation is unnecessary, output only the corrected code block.
 
 ---
 

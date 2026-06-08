@@ -17,12 +17,12 @@ The final result should contain only rules that help prevent real repository-spe
 
 For each instruction determine:
 
-* Is it still necessary?
-* Is it already obvious from the repository?
-* Is it already enforced by tooling?
-* Is it duplicated by another instruction?
-* Is it obsolete?
-* Is it too generic to provide meaningful value?
+- Is it still necessary?
+- Is it already obvious from the repository?
+- Is it already enforced by tooling?
+- Is it duplicated by another instruction?
+- Is it obsolete?
+- Is it too generic to provide meaningful value?
 
 ## Classification
 
@@ -60,8 +60,14 @@ Explain the decision.
 
 Start the output with YAML front matter that includes:
 
-* description
-* applyTo
+- description
+- applyTo
+
+Description requirements:
+
+- Maximum 10 words.
+- Use a concise noun phrase.
+- Focus on the rule scope.
 
 Produce a section named:
 
@@ -69,12 +75,12 @@ Produce a section named:
 
 Return a revised instruction set that:
 
-* Removes redundancy
-* Removes generic advice
-* Removes obsolete rules
-* Removes rules already enforced by tooling
-* Preserves repository-specific constraints
-* Preserves rules that prevent recurring AI mistakes
+- Removes redundancy
+- Removes generic advice
+- Removes obsolete rules
+- Removes rules already enforced by tooling
+- Preserves repository-specific constraints
+- Preserves rules that prevent recurring AI mistakes
 
 Prefer a final instruction file under 20 lines.
 

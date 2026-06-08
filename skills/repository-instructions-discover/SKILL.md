@@ -17,38 +17,38 @@ The result should help AI coding agents avoid mistakes while keeping instruction
 
 Do NOT include:
 
-* Programming language best practices
-* Framework best practices
-* Coding style preferences
-* Linting rules
-* Formatting rules
-* Generic software engineering advice
-* Information that is obvious from the repository structure
-* Information already enforced by tooling
+- Programming language best practices
+- Framework best practices
+- Coding style preferences
+- Linting rules
+- Formatting rules
+- Generic software engineering advice
+- Information that is obvious from the repository structure
+- Information already enforced by tooling
 
 Examples to exclude:
 
-* Use TypeScript strict mode
-* Avoid any
-* Follow SOLID principles
-* Write maintainable code
-* Use ESLint
-* Use Prettier
+- Use TypeScript strict mode
+- Avoid any
+- Follow SOLID principles
+- Write maintainable code
+- Use ESLint
+- Use Prettier
 
 ## Focus Areas
 
 Look for:
 
-* Architecture constraints
-* Layering rules
-* Dependency direction rules
-* Folder-specific restrictions
-* Generated code restrictions
-* Legacy code restrictions
-* Deployment/runtime constraints
-* Domain-specific business rules
-* Repository-specific testing requirements
-* Common mistakes an AI coding agent is likely to make
+- Architecture constraints
+- Layering rules
+- Dependency direction rules
+- Folder-specific restrictions
+- Generated code restrictions
+- Legacy code restrictions
+- Deployment/runtime constraints
+- Domain-specific business rules
+- Repository-specific testing requirements
+- Common mistakes an AI coding agent is likely to make
 
 ## Candidate Rules
 
@@ -56,7 +56,7 @@ For each proposed rule provide:
 
 ### Rule
 
-* {rule}
+- {rule}
 
 ### Why
 
@@ -70,16 +70,22 @@ Explain what AI mistake the rule prevents.
 
 Choose one:
 
-* High
-* Medium
-* Low
+- High
+- Medium
+- Low
 
 ## Final Output
 
 Start the output with YAML front matter that includes:
 
-* description
-* applyTo
+- description
+- applyTo
+
+Description requirements:
+
+- Maximum 10 words.
+- Use a concise noun phrase.
+- Focus on the rule scope.
 
 Produce a section named:
 
@@ -87,17 +93,17 @@ Produce a section named:
 
 Include only rules that are:
 
-* High confidence
-* Repository-specific
-* Useful for preventing real AI mistakes
+- High confidence
+- Repository-specific
+- Useful for preventing real AI mistakes
 
 Keep the final instruction set under 20 lines.
 
 Prefer concise rules such as:
 
-* Do not edit generated files.
-* Avoid changes under legacy/.
-* Database access only through repositories.
-* New API endpoints must be implemented under src/api/v2.
+- Do not edit generated files.
+- Avoid changes under legacy/.
+- Database access only through repositories.
+- New API endpoints must be implemented under src/api/v2.
 
 Favor constraints and restrictions over documentation.

@@ -58,6 +58,11 @@ Explain the decision.
 
 ## Final Output
 
+Start the output with YAML front matter that includes:
+
+* description
+* applyTo
+
 Produce a section named:
 
 ## Optimized Instructions

@@ -76,6 +76,11 @@ Choose one:
 
 ## Final Output
 
+Start the output with YAML front matter that includes:
+
+* description
+* applyTo
+
 Produce a section named:
 
 ## Recommended Instructions

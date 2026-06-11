@@ -3,6 +3,8 @@ description: C# xUnit tests.
 applyTo: "src/**/*{Test,Tests}.cs"
 ---
 
+# C# Testing Instructions
+
 - Use xUnit v3 with Microsoft.Testing.Platform.
 - Run tests for changed files first; expand scope only if needed.
 - Use BDD-style test names.

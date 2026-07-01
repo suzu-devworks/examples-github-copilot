@@ -7,6 +7,14 @@
     "--name=examples-github-copilot_devcontainer"
   ],
   "remoteUser": "vscode",
+  "mounts": [
+    "source=${localEnv:HOME}/.copilot/skills,target=/home/vscode/.copilot/skills,type=bind"
+  ],
+  "features": {
+    "ghcr.io/devcontainers/features/node": {},
+    "ghcr.io/devcontainers/features/copilot-cli": {},
+    "ghcr.io/devcontainers/features/github-cli": {}
+  },
   "customizations": {
     "vscode": {
       "extensions": [
@@ -16,10 +24,5 @@
         "yzhang.markdown-all-in-one"
       ]
     }
-  },
-  "features": {
-    "ghcr.io/devcontainers/features/node:2": {},
-    "ghcr.io/devcontainers/features/copilot-cli:1": {},
-    "ghcr.io/devcontainers/features/github-cli:1": {}
   }
 }

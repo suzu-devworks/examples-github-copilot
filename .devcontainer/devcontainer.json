@@ -7,9 +7,6 @@
     "--name=examples-github-copilot_devcontainer"
   ],
   "remoteUser": "vscode",
-  "mounts": [
-    "source=${localEnv:HOME}/.copilot/skills,target=/home/vscode/.copilot/skills,type=bind"
-  ],
   "features": {
     "ghcr.io/devcontainers/features/node": {},
     "ghcr.io/devcontainers/features/copilot-cli": {},

@@ -7,7 +7,8 @@ description: "Add or update a README .NET Framework badge using shields.io dynam
 
 ## Purpose
 
-Add a README badge that shows the framework value from `src/Directory.Build.props` (`LatestFramework`) via shields.io dynamic XML.
+Add a README badge that shows the framework value from `src/Directory.Build.props` (`LatestFramework`)
+via shields.io dynamic XML.
 
 ## Use When
 
@@ -18,7 +19,7 @@ Add a README badge that shows the framework value from `src/Directory.Build.prop
 ## Inputs
 
 - Repository owner (for example: `suzu-devworks`)
-- Repository name (for example: `examples-dotnet-metaprogramming`)
+- Repository name (for example: `examples-dotnet`)
 - Target branch for raw file URL (default: `main`)
 
 ## Required Badge Settings

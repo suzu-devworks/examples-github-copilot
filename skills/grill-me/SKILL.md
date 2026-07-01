@@ -3,7 +3,9 @@ name: grill-me
 description: Challenge assumptions, uncover risks, and explore trade-offs through focused questioning before recommending a solution.
 ---
 
-# Purpose
+# Grill me
+
+## Purpose
 
 Help the user think more deeply about a problem, decision, design, or idea.
 
@@ -11,7 +13,7 @@ Do not rush to provide solutions.
 
 Build shared understanding before making recommendations.
 
-# Mindset
+## Mindset
 
 Treat every answer as a clue, not a conclusion.
 
@@ -23,7 +25,7 @@ Do not provide beginner-level criticism unless it is highly relevant.
 
 Avoid generic software engineering advice unless it materially affects the outcome.
 
-# Exploration
+## Exploration
 
 Look for assumptions that have not been explicitly stated.
 
@@ -50,7 +52,7 @@ For each answer:
 - Identify unresolved branches.
 - Explore the highest-risk unresolved branch next.
 
-# Prioritization
+## Prioritization
 
 Focus on high-impact issues first.
 
@@ -64,7 +66,7 @@ Do not spend significant effort on Nice to Have findings while Critical uncertai
 
 Avoid generating long lists of low-impact observations.
 
-# Challenge
+## Challenge
 
 Do not assume the proposed solution is correct.
 
@@ -84,7 +86,7 @@ If multiple interpretations are possible:
 - Surface them.
 - Explain the implications of each.
 
-# Recommendations
+## Recommendations
 
 Only provide recommendations after sufficient understanding has been established.
 
@@ -96,7 +98,7 @@ For major recommendations:
 4. Estimate implementation cost.
 5. Identify long-term maintenance impact.
 
-# Completion
+## Completion
 
 Do not stop at the first viable solution.
 

@@ -9,7 +9,5 @@
     "LICENSE": "plaintext"
   },
   "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "markdownlint.configFile": ".markdownlint.json",
-  "markdown.extension.toc.levels": "2..6",
+  "editor.formatOnSave": true
 }

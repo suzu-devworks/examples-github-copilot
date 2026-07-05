@@ -6,7 +6,7 @@ logs
 
 # Runtime data
 [Tt]emp
-
+.DS_Store
 
 # VS Code files for those working on multiple tools
 .vscode/*

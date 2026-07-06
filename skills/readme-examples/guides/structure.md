@@ -57,20 +57,21 @@ This section should highlight what makes the repository different from other rep
 
 ### Purpose
 
-Describe development requirements or infrastructure shared across the repository.
+Describe shared development requirements or infrastructure that helps readers understand how work is done across the repository.
 
 ### Include
 
-- Dev Container support.
-- Shared Docker services.
-- Common prerequisites.
-- Repository-wide development conventions.
+- Shared development environment support (for example, containerized development).
+- Shared services or infrastructure used across multiple parts of the repository.
+- Repository-wide prerequisites that materially affect development.
+- Stable conventions that help readers understand repository-level development context.
 
 ### Avoid
 
-- Build instructions for individual projects.
+- Build or run instructions for individual projects.
 - Project-specific configuration.
-- Environment details that apply to only one project.
+- Details that are obvious from common repository conventions.
+- Explanations that only restate configuration file contents without adding practical context
 
 ---
 
@@ -78,20 +79,20 @@ Describe development requirements or infrastructure shared across the repository
 
 ### Purpose
 
-Provide additional context that helps readers understand this repository.
+Provide repository-specific context that does not naturally fit in other sections.
 
-Use this section only when the information does not naturally fit into another section.
+This section is optional and should be omitted by default.
 
 ### Include
 
-- Repository-specific characteristics.
-- Assumptions readers should know.
-- Intentional design decisions.
-- Other context that helps readers understand the repository.
+- Context that is specific to this repository and materially improves reader understanding.
+- Assumptions or design context that readers are unlikely to infer from structure alone.
 
 ### Avoid
 
+- Generic statements that could apply to most repositories.
 - Documentation guidance.
 - Contribution guidance.
 - Project-specific details.
 - Information already covered in another section.
+- Low-signal filler added only to keep a section present.

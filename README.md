@@ -1,22 +1,25 @@
 # examples-github-copilot
 
-## What is the purpose of this repository?
+## What is this repository?
 
-This repository is a **personal** workspace for testing and managing configurations to build
-a better development environment using GitHub Copilot.
+This repository records examples for working with GitHub Copilot in day-to-day development.
 
-It might be useful for developers who have the same problem.
+Within the examples collection, it serves as a small knowledge base focused on practical
+instruction files and skills that can be reused and adapted in other repositories.
 
-However, please note that the code discussed here is based on my personal opinion and may contain many inaccuracies.
+The content reflects ongoing exploration and may change as workflows and tools evolve.
 
-I do not accept responsibility for any issues caused by using content from this repository.
+## What topics are covered?
 
-## Recommend using a Dev Containers
+This repository mainly documents:
 
-I recommend using Dev Containers for development.
-You can set up a development environment with the necessary tools and dependencies pre-installed,
-which can help you get started quickly and avoid issues related to environment configuration.
+- Copilot instruction patterns for coding and testing workflows.
+- Reusable skill packages for README writing, repository instruction discovery/refinement,
+  and guided questioning.
+- Examples of repository-level conventions for AI-assisted development.
 
-**And most importantly, it can be achieved without polluting the computer environment.**
+## Development environment
 
-For details about containers, see [devcontainer.json](.devcontainer/devcontainer.json).
+Development is expected to run in a Dev Container so tools and runtime versions stay consistent.
+
+Container settings are defined in [.devcontainer/devcontainer.json](.devcontainer/devcontainer.json).

@@ -11,7 +11,7 @@ Use this skill when creating or reviewing a repository README for the examples c
 
 1. Identify repository type.
 2. Read relevant guides.
-3. Determine README structure using the structure guide.
+3. Determine required and optional README sections using the structure guide.
 4. Apply tone and maintainability rules from the guides.
 5. Write or refine README.
 6. Before finalizing, verify the README reflects this repository and avoids guide-like meta explanation.

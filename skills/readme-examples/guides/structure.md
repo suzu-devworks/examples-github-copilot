@@ -7,6 +7,19 @@ Every section should help readers understand this repository.
 
 Do not include advice about how documentation should be organized unless it is itself a characteristic of this repository
 
+## Required and optional　sections
+
+### Required sections
+
+- What is this repository?
+- What topics are covered?
+
+### Conditional section
+
+- Development environment (any preparations, configurations, or other tasks the reader needs to complete beforehand,
+  or details regarding the use of containers for development)
+- Additional notes (if there is repository-specific context that does not naturally fit in other sections).
+
 ---
 
 ## What is this repository?

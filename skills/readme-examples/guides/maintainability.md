@@ -32,11 +32,11 @@ Avoid information that is likely to become outdated, including:
 - Version-specific instructions.
 - Frequently changing feature lists.
 
-Avoid duplicating documentation that already exists elsewhere.
-
 Avoid documenting information that belongs in an individual project's own README.
 
-Avoid including guidance from this skill unless it describes an actual characteristic of the repository.
+Avoid adding redirection-only sentences about where individual project's own documentation is located.
+
+Avoid including guidance from this skill.
 
 Avoid low-signal statements that merely restate file names, common conventions, or self-evident repository mechanics.
 

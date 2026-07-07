@@ -94,6 +94,7 @@ Describe repository-wide prerequisites or preparation that readers should know b
 - Repository-wide Docker Compose services and why they are used.
 - Repository-wide development environment customizations that affect development.
 - Repository-wide assets that must be prepared before development or CI.
+- Instructions for running any repository-provided setup scripts, including example command lines in a code block.
 
 ### Avoid
 

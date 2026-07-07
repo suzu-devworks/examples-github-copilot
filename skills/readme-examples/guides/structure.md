@@ -51,15 +51,16 @@ Always include this section.
 
 ### Purpose
 
-Summarize the main topics explored by the repository.
-
-This section should highlight what makes the repository different from other repositories in the collection.
+List the main topics covered by the repository so readers can quickly understand its scope.
 
 ### Include
 
-- Primary technologies.
-- Main subject areas.
-- High-level scope.
+- Use a bullet list.
+- Include 3-10 concise items.
+- Focus on the repository's primary themes.
+- Primary technologies and frameworks.
+- High-level concepts.
+- Main subject areas, when relevant.
 
 ### Avoid
 

@@ -74,7 +74,7 @@ List the main topics covered by the repository so readers can quickly understand
 
 ### Condition
 
-Include this section only when one or more of the following apply:
+Include this section if any of the following conditions apply:
 
 - Multiple Dev Container definitions are provided.
 - Additional preparation is required before opening the Dev Container (for example, certificates or local resources).
@@ -85,16 +85,14 @@ Otherwise, omit this section entirely.
 
 ### Purpose
 
-Describe repository-wide prerequisites or preparation that readers should know before starting development.
+Describe only the repository-wide prerequisites identified by the conditions above.
 
 ### Include
 
 - Which Dev Container to use and when, if multiple are provided.
 - Additional preparation required before opening the Dev Container.
-- Repository-wide Docker Compose services and why they are used.
-- Repository-wide development environment customizations that affect development.
-- Repository-wide assets that must be prepared before development or CI.
-- Instructions for running any repository-provided setup scripts, including example command lines in a code block.
+- Docker Compose configurations, the services they start, and why they are used.
+- Instructions for running the required setup scripts, including example commands in a code block.
 
 ### Avoid
 

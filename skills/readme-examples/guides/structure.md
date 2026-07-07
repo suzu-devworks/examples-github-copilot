@@ -1,28 +1,27 @@
-
 # README Structure
 
 Choose sections based on the repository rather than following a fixed template.
 
 Every section should help readers understand this repository.
 
-Do not include advice about how documentation should be organized unless it is itself a characteristic of this repository
+Do not include advice about how documentation should be organized unless it is itself a characteristic of this repository.
 
-## Required and optional　sections
-
-### Required sections
+## Required sections
 
 - What is this repository?
 - What topics are covered?
 
-### Conditional section
+## Conditional sections
 
-- Development environment (any preparations, configurations, or other tasks the reader needs to complete beforehand,
-  or details regarding the use of containers for development)
-- Additional notes (if there is repository-specific context that does not naturally fit in other sections).
+- What should I prepare before development?
 
 ---
 
 ## What is this repository?
+
+### Condition
+
+Always include this section.
 
 ### Purpose
 
@@ -46,6 +45,10 @@ This section should be largely consistent across repositories.
 
 ## What topics are covered?
 
+### Condition
+
+Always include this section.
+
 ### Purpose
 
 Summarize the main topics explored by the repository.
@@ -66,46 +69,37 @@ This section should highlight what makes the repository different from other rep
 
 ---
 
-## Development environment
+## What should I prepare before development?
+
+### Condition
+
+Include this section only when one or more of the following apply:
+
+- Multiple Dev Container definitions are provided.
+- Additional preparation is required before opening the Dev Container (for example, certificates or local resources).
+- Development uses multiple Docker Compose files or Docker Compose starts additional services that readers should know about.
+- Development or CI requires running repository-provided setup scripts to prepare the local environment or required resources.
+
+Otherwise, omit this section entirely.
 
 ### Purpose
 
-Describe shared development requirements or infrastructure that helps readers understand how work is done across the repository.
+Describe repository-wide prerequisites or preparation that readers should know before starting development.
 
 ### Include
 
-- Shared development environment support (for example, containerized development).
-- Shared services or infrastructure used across multiple parts of the repository.
-- Repository-wide prerequisites that materially affect development.
-- Stable conventions that help readers understand repository-level development context.
+- Which Dev Container to use and when, if multiple are provided.
+- Additional preparation required before opening the Dev Container.
+- Repository-wide Docker Compose services and why they are used.
+- Repository-wide development environment customizations that affect development.
+- Repository-wide assets that must be prepared before development or CI.
 
 ### Avoid
 
-- Build or run instructions for individual projects.
-- Project-specific configuration.
-- Details that are obvious from common repository conventions.
-- Explanations that only restate configuration file contents without adding practical context
-
----
-
-## Additional notes
-
-### Purpose
-
-Provide repository-specific context that does not naturally fit in other sections.
-
-This section is optional and should be omitted by default.
-
-### Include
-
-- Context that is specific to this repository and materially improves reader understanding.
-- Assumptions or design context that readers are unlikely to infer from structure alone.
-
-### Avoid
-
-- Generic statements that could apply to most repositories.
-- Documentation guidance.
-- Contribution guidance.
-- Project-specific details.
-- Information already covered in another section.
-- Low-signal filler added only to keep a section present.
+- Standard Dev Container usage.
+- Build or run instructions.
+- Project-specific setup.
+- Repository structure.
+- Configuration details that are self-explanatory.
+- Information that readers can easily infer from the repository.
+- Restating configuration files without explaining why readers should care.

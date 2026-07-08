@@ -9,13 +9,15 @@
 - `repository-instructions-refine`: A skill for refining and optimizing repository-specific instructions.
   This goes with the one above.
 
+- `markdown-quality`: A skill for ensuring the quality of Markdown files in a repository, including formatting and linting.
+
+- `readme-examples`: A skill for generating example code snippets for README files based on the repository's codebase.
+
 - `add-dotnet-framework-badge`: A skill for adding or updating a README .NET Framework badge using shields.io
   dynamic XML by reading `LatestFramework` from `src/Directory.Build.props`.
-
-- `markdown-quality`: A skill for ensuring the quality of Markdown files in a repository, including formatting and linting.
 
 ## How to Use These Skills
 
 ```bash
-gh skills install suzu-devworks/examples-github-copilot <skill-name>
+gh skills install suzu-devworks/examples-github-copilot <skill-name> --scope user
 ```

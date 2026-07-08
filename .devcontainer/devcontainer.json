@@ -2,10 +2,11 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
 {
   "name": "Ubuntu",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "runArgs": [
-    "--name=examples-github-copilot_devcontainer"
+  "dockerComposeFile": [
+    "compose.develop.yaml"
   ],
+  "service": "dev",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
   "remoteUser": "vscode",
   "features": {
     "ghcr.io/devcontainers/features/node": {},

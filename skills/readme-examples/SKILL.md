@@ -1,13 +1,14 @@
 ---
 name: readme-examples
 description: |
-  Write and refine README files for repositories in the examples collection. Use the repository-specific guides to choose sections, tone, and scope.
-  Use when creating a new README, revising an examples repository README, or checking whether a README matches the examples collection guidance.
+  Write and refine README files for repositories containing technical examples or learning notes. Use the guides to choose sections, tone, and scope.
+  Use when creating or reviewing a README for a technical example repository or learning resource.
 ---
 
-# README for Examples Collection
+# README Writing Guide
 
-Use this skill when creating or reviewing a repository README for the examples collection.
+Use this skill when creating or reviewing a README for a repository that documents technical examples, learning notes,
+or related work.
 
 ## Workflow
 
@@ -15,9 +16,11 @@ Use this skill when creating or reviewing a repository README for the examples c
 2. Read relevant guides.
 3. Determine the README structure using the structure guide.
 4. Evaluate the Condition for each conditional section.
-5. Write or refine the README sections.
-6. Apply tone and maintainability rules from the guides.
-7. Before finalizing, verify the README reflects this repository and avoids guide-like meta explanation.
+5. Write or refine the README sections, preserving the repository's stated purpose and the author's intended voice.
+6. Prioritize the user's explicit instructions and repository facts over general guide recommendations.
+7. If the author's intent is unclear, ask before making substantial changes.
+8. Apply tone and maintainability rules from the guides.
+9. Before finalizing, verify the README reflects this repository and avoids guide-like meta explanation.
 
 ## Guides
 

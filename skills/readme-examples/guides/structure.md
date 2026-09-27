@@ -25,20 +25,16 @@ Always include this section.
 
 ### Purpose
 
-Explain the repository's role within the `examples` collection.
-
-This section should be largely consistent across repositories.
+Explain the repository's purpose and approach, using the author's stated intent as the starting point.
 
 ### Include
 
 - The purpose of the repository.
-- How it relates to the `examples` collection.
 - The overall approach or philosophy.
 
 ### Avoid
 
-- Project-specific details.
-- Lists of technologies.
+- Long lists of technologies (use the topics section for those).
 - Setup instructions.
 
 ---

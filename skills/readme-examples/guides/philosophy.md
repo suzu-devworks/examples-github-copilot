@@ -1,10 +1,11 @@
-# Repository Philosophy
+# Repository Purpose
 
-Repositories in the `examples` collection are primarily public knowledge bases.
+Describe each repository according to its contents and the author's stated intent.
 
-They document personal exploration of technologies, APIs, and programming techniques through small, focused examples.
+Some repositories record personal exploration of technologies, APIs, and programming techniques through examples and notes.
 
-The goal is not to provide complete solutions or authoritative guidance,
-but to share examples that may help others investigating similar topics.
+Present such material as a record of current understanding that may help others investigate similar topics, not as complete
+solutions or authoritative guidance unless the repository explicitly intends otherwise.
 
-The examples reflect the author's current understanding and may evolve over time as knowledge and experience grow.
+Do not assume every repository has the same purpose or audience. Reflect what is actually present and avoid overstating
+the examples' scope or authority.

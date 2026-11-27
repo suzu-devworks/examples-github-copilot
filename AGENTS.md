@@ -34,3 +34,5 @@
 ## Boundaries
 
 - Do not create pull requests or perform operations on remote repositories unless instructed to do so.
+- Keep exploratory temporary files outside Git-managed paths and remove them after work is complete.
+- Do not leave temporary or generated files in the repository unless they are intended as project artifacts.
